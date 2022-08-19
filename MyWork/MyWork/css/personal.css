@@ -1,0 +1,77 @@
+html,
+body {
+    /* 加载背景图 */
+    background-image: url("../image/bg.jpg");
+    /* 背景图垂直、水平均居中 */
+    background-position: center center;
+    /* 背景图不平铺 */
+    background-repeat: no-repeat;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed;
+    /* 让背景图基于容器大小伸缩 */
+    background-size: cover;
+    /* 设置背景颜色，背景图加载过程中会显示背景色 */
+    background-color: #6c6c6c;
+    line-height: 1;
+}
+
+.fakeimg {
+    height: 380px;
+    background: #aaa;
+}
+
+#grad1 {
+    height: 400px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(16, 33, 106, 1));
+}
+
+#wmbq {
+    position: relative;
+    height: 190px;
+    margin: 10px auto 10px;
+}
+
+#wmbq a {
+    position: absolute;
+    /* color: #FFFFFF; */
+    text-decoration: none;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    padding: 3px 5px;
+    border: 0;
+    transition: none;
+}
+
+#wmbq a:hover {
+    background: none;
+    display: block;
+}
+
+#wmbq a:nth-child(n) {
+    display: inline-block;
+    line-height: 18px;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px red, 0 0 5px red, 0 0 5px red, 0 0 5px red, 0 0 5px red;
+}
+
+#wmbq a:nth-child(2n) {
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #FF1177, 0 0 5px #FF1177, 0 0 5px #FF1177, 0 0 5px #FF1177, 0 0 5px #FF1177;
+}
+
+#wmbq a:nth-child(3n) {
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #228DFF, 0 0 5px #228DFF, 0 0 5px #228DFF, 0 0 5px #228DFF, 0 0 5px #228DFF;
+}
+
+#wmbq a:nth-child(4n) {
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #000000, 0 0 5px #000000, 0 0 5px #000000, 0 0 5px #000000, 0 0 5px #000000;
+}
+
+#wmbq a:nth-child(5n) {
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #00ffdc, 0 0 5px #00ffdc, 0 0 5px #00ffdc, 0 0 5px #00ffdc, 0 0 5px #00ffdc;
+}
+
+#wmbq a:nth-child(6n) {
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #ff00de, 0 0 5px #ff00de, 0 0 5px #ff00de, 0 0 5px #ff00de, 0 0 5px #ff00de;
+}

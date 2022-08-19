@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客列表页</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/blog_list.css">
+    <link rel="icon" href="./image/logo.png">
+</head>
+
+<body>
+
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="image/8.jpeg" alt="">
+        <span class="title">我的博客</span>
+        <!-- 使用 span 把左右两侧的元素给撑开 -->
+        <span class="spacer"></span>
+        <a href="./main.aspx">首页</a>
+        <a href="blog_edit.html">写博客</a>
+        <a href="./photos.html">相册</a>
+        <a href="./Per.html">个人主页</a>
+        <a href="./collect.html">收藏</a>
+        <a href="blog_login.html">注销</a>
+    </div>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左侧区域，显示用户信息 -->
+        <div class="container-left">
+            <!-- 用户详情 -->
+            <div class="card">
+                <!-- 用户的头像 -->
+                <img src="image/8.jpeg" alt="">
+                <!-- 用户名 -->
+                <h3>爱吃小笼包的喵酱</h3>
+                <!-- 其它信息 -->
+                <a href="https://gitee.com/wu25">Gitee地址</a>
+                <a href="https://github.com/Wuoo25">GitHub 地址</a>
+                <!-- 文章分类 -->
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>3</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧区域，显示博客列表 -->
+        <div class="container-right">
+            <!-- 每个 blog 代表一篇博客 -->
+            <div class="blog">
+                <div class="title">第一篇博客</div>
+                <div class="date">2022-2-16</div>
+                <div class="desc">
+                    中国人的性情是喜欢调和折中的，譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶他们就来调和，愿意开窗了。
+                </div>
+                <a href="blog_detailFr.html" class="detail">查看全文&gt;&gt;</a>
+            </div>
+            <div class="blog">
+                <div class="title">第二篇博客</div>
+                <div class="date">2022-3-18</div>
+                <div class="desc">
+                    所谓回忆者，虽说可以使人欢欣，有时也不免使人寂寞，使精神的丝缕还牵着已逝的寂寞的时光，又有什么意味呢，而我偏苦于不能全忘却，这不能全忘的一部分，到现在便成了《呐喊》的来由。
+                </div>
+                <a href="./blog_detailSe.aspx"  class="detail">查看全文&gt;&gt;</a>
+            </div>
+            <div class="blog">
+                <div class="title">第三篇博客</div>
+                <div class="date">2022-5-24</div>
+                <div class="desc">
+                    中国人的性情是喜欢调和折中的，譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶他们就来调和，愿意开窗了。
+                </div>
+                <a href="blog_detailTh.html" class="detail">查看全文&gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
